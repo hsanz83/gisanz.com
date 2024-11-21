@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GISanz - Topografía con Drones</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>GISanz</h1>
+            <p>Soluciones avanzadas en topografía con drones</p>
+            <a href="#contacto" class="btn">¡Contáctanos!</a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio" class="section">
+            <h2>Bienvenido a GISanz</h2>
+            <p>En GISanz utilizamos tecnología de drones de última generación para brindarte servicios de topografía, mapeos 3D y análisis geoespacial con máxima precisión y rapidez.</p>
+        </section>
+
+        <section id="servicios" class="section">
+            <h2>Nuestros Servicios</h2>
+            <div class="services">
+                <div class="service">
+                    <img src="topografia.jpg" alt="Topografía">
+                    <h3>Levantamientos Topográficos</h3>
+                    <p>Mediciones precisas en terrenos complejos.</p>
+                </div>
+                <div class="service">
+                    <img src="modelos3d.jpg" alt="Modelos 3D">
+                    <h3>Modelos 3D</h3>
+                    <p>Reconstrucción de entornos en alta definición.</p>
+                </div>
+                <div class="service">
+                    <img src="georreferenciacion.jpg" alt="Georreferenciación">
+                    <h3>Georreferenciación</h3>
+                    <p>Mapeo detallado y adaptado a tus necesidades.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="nosotros" class="section">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa líder en ingeniería en topografía y geomática. Combinamos experiencia técnica con herramientas innovadoras para entregar resultados confiables y adaptados a cada cliente.</p>
+        </section>
+
+        <section id="contacto" class="section contacto">
+            <h2>Contáctanos</h2>
+            <form action="submit.php" method="post" class="contact-form">
+                <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre" required>
+                <input type="email" id="email" name="email" placeholder="Tu Email" required>
+                <textarea id="mensaje" name="mensaje" placeholder="Tu Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p>O llámanos al: <strong>+34 626304435</strong></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 GISanz - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
