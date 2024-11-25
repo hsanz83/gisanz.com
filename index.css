@@ -146,3 +146,8 @@ footer {
     padding: 10px;
     text-align: center;
 }
+/* Estilo para el logo */
+.hero-content .logo {
+    max-width: 150px; /* Ajusta el tamaño del logo */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
