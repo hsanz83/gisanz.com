@@ -28,6 +28,19 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.hero-content .logo {
+    max-width: 200px; /* Tamaño mayor del logo */
+    margin: 0 auto 20px auto; /* Centrado y espaciado inferior */
+    display: block; /* Asegura que se centre como elemento de bloque */
+}
+.hero-content {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos verticalmente */
+    align-items: center; /* Centra todos los elementos horizontalmente */
+}
+
+
+
 .btn {
     padding: 12px 25px;
     color: white;
@@ -146,8 +159,4 @@ footer {
     padding: 10px;
     text-align: center;
 }
-/* Estilo para el logo */
-.hero-content .logo {
-    max-width: 150px; /* Ajusta el tamaño del logo */
-    margin-bottom: 20px; /* Espaciado inferior */
-}
+
