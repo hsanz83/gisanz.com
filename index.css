@@ -116,6 +116,33 @@ body {
     margin: 10px 0;
     color: #007BFF;
 }
+/* Sección de Clientes */
+.clientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.cliente {
+    text-align: center;
+    max-width: 150px;
+}
+
+.cliente img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cliente p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
 
 .contacto {
     background: #007BFF;
