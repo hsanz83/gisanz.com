@@ -29,7 +29,7 @@ body {
 }
 
 .hero-content .logo {
-    max-width: 200px; /* Tamaño mayor del logo */
+    max-width: 20px; /* Tamaño mayor del logo */
     margin: 0 auto 20px auto; /* Centrado y espaciado inferior */
     display: block; /* Asegura que se centre como elemento de bloque */
 }
