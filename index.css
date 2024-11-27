@@ -29,24 +29,17 @@ body {
 }
 
 .hero-content .logo {
-    width: 50px; /* Cambia el tamaño general */
-    max-width: 100%; /* Asegura que no exceda el ancho del contenedor */
-    height: auto; /* Mantiene la proporción original */
-    margin: 0 auto 20px auto; /* Centrado con espaciado inferior */
-    display: block; /* Asegura que esté centrado */
+    width: 120px; /* Ajuste del tamaño del logo */
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px auto;
+    display: block;
 }
-.hero-content {
-    display: flex;
-    flex-direction: column; /* Organiza los elementos verticalmente */
-    align-items: center; /* Centra todos los elementos horizontalmente */
-}
-
-
 
 .btn {
     padding: 12px 25px;
     color: white;
-    background: #007BFF;
+    background: #A3D572; /* Verde pistacho */
     text-decoration: none;
     border-radius: 5px;
     font-size: 1rem;
@@ -54,25 +47,17 @@ body {
 }
 
 .btn:hover {
-    background: #0056b3;
+    background: #8EBB60; /* Verde pistacho oscuro */
 }
 
 /* Navbar */
 .navbar {
-    background: #007BFF;
+    background: #A3D572; /* Verde pistacho */
     color: white;
     padding: 10px 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
-}
-
-.navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
 }
 
 .navbar a {
@@ -92,93 +77,18 @@ body {
     background: #f9f9f9;
 }
 
-.services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.service {
-    max-width: 300px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-    background: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.service img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.service h3 {
-    margin: 10px 0;
-    color: #007BFF;
-}
-/* Sección de Clientes */
 .clientes {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
-    gap: 20px; /* Espacio entre las tarjetas */
-    justify-items: center; /* Centra horizontalmente cada elemento */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
     padding-top: 20px;
 }
 
-.cliente {
-    text-align: center;
-    max-width: 200px;
-}
-
-.cliente img {
-    width: 100%;
-    max-height: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.cliente p {
-    margin-top: 10px;
-    font-weight: bold;
-    color: #333;
-}
-
-
-.contacto {
-    background: #007BFF;
-    color: white;
-}
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.contact-form input,
-.contact-form textarea {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    width: 100%;
-}
-
-.contact-form button {
-    background: white;
-    color: #007BFF;
-    border: none;
-    padding: 12px;
-    font-size: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-.contact-form button:hover {
-    background: #ddd;
+.logo-ecologik {
+    max-width: 150px;
+    max-height: 80px;
+    height: auto;
 }
 
 /* Footer */
@@ -188,4 +98,3 @@ footer {
     padding: 10px;
     text-align: center;
 }
-
