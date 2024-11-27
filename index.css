@@ -3,8 +3,9 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #333; /* Texto principal */
     line-height: 1.6;
+    background-color: #F5F8F2; /* Fondo claro */
 }
 
 /* Header / Hero Section */
@@ -74,9 +75,37 @@ body {
 .section {
     padding: 50px 20px;
     text-align: center;
-    background: #f9f9f9;
+    background: #F5F8F2; /* Fondo claro */
 }
 
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.service h3 {
+    margin: 10px 0;
+    color: #8EBB60; /* Verde pistacho oscuro */
+}
+
+/* Sección de Clientes */
 .clientes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -85,10 +114,66 @@ body {
     padding-top: 20px;
 }
 
+.cliente {
+    text-align: center;
+    max-width: 200px;
+}
+
+.cliente img {
+    width: 100%;
+    max-width: 150px;
+    max-height: 100px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cliente p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
 .logo-ecologik {
     max-width: 150px;
     max-height: 80px;
     height: auto;
+}
+
+/* Sección Contacto */
+.contacto {
+    background: #A3D572; /* Verde pistacho */
+    color: white;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.contact-form button {
+    background: white;
+    color: #A3D572; /* Verde pistacho */
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #8EBB60; /* Verde pistacho oscuro */
 }
 
 /* Footer */
