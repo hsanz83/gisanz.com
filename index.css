@@ -29,9 +29,11 @@ body {
 }
 
 .hero-content .logo {
-    max-width: 20px; /* Tamaño mayor del logo */
-    margin: 0 auto 20px auto; /* Centrado y espaciado inferior */
-    display: block; /* Asegura que se centre como elemento de bloque */
+    width: 50px; /* Cambia el tamaño general */
+    max-width: 100%; /* Asegura que no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción original */
+    margin: 0 auto 20px auto; /* Centrado con espaciado inferior */
+    display: block; /* Asegura que esté centrado */
 }
 .hero-content {
     display: flex;
